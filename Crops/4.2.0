@@ -1,16 +1,22 @@
-Requirement already satisfied: plotly in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (5.18.0)
-Requirement already satisfied: openpyxl in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (3.1.2)
-Requirement already satisfied: nbformat in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (5.9.2)
-Requirement already satisfied: tenacity>=6.2.0 in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from plotly) (8.2.3)
-Requirement already satisfied: packaging in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from plotly) (23.2)
-Requirement already satisfied: et-xmlfile in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from openpyxl) (1.1.0)
-Requirement already satisfied: fastjsonschema in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from nbformat) (2.18.1)
-Requirement already satisfied: jsonschema>=2.6 in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from nbformat) (4.19.2)
-Requirement already satisfied: jupyter-core in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from nbformat) (5.5.0)
-Requirement already satisfied: traitlets>=5.1 in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from nbformat) (5.13.0)
-Requirement already satisfied: attrs>=22.2.0 in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jsonschema>=2.6->nbformat) (23.1.0)
-Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jsonschema>=2.6->nbformat) (2023.7.1)
-Requirement already satisfied: referencing>=0.28.4 in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jsonschema>=2.6->nbformat) (0.30.2)
-Requirement already satisfied: rpds-py>=0.7.1 in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jsonschema>=2.6->nbformat) (0.12.0)
-Requirement already satisfied: platformdirs>=2.5 in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jupyter-core->nbformat) (3.11.0)
-Requirement already satisfied: pywin32>=300 in c:\users\desktop\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jupyter-core->nbformat) (306)
+Collecting plotly
+  Downloading plotly-5.18.0-py3-none-any.whl (15.6 MB)
+     ---------------------------------------- 15.6/15.6 MB 3.2 MB/s eta 0:00:00
+Requirement already satisfied: openpyxl in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (3.1.2)
+Collecting nbformat
+  Using cached nbformat-5.9.2-py3-none-any.whl (77 kB)
+Requirement already satisfied: packaging in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from plotly) (21.3)
+Requirement already satisfied: tenacity>=6.2.0 in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from plotly) (8.2.3)
+Requirement already satisfied: et-xmlfile in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from openpyxl) (1.1.0)
+Requirement already satisfied: jupyter-core in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from nbformat) (4.11.2)
+Requirement already satisfied: traitlets>=5.1 in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from nbformat) (5.5.0)
+Requirement already satisfied: jsonschema>=2.6 in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from nbformat) (4.19.1)
+Collecting fastjsonschema
+  Downloading fastjsonschema-2.18.1-py3-none-any.whl (23 kB)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jsonschema>=2.6->nbformat) (0.10.4)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jsonschema>=2.6->nbformat) (0.30.2)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jsonschema>=2.6->nbformat) (23.1.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jsonschema>=2.6->nbformat) (2023.7.1)
+Requirement already satisfied: pywin32>=1.0 in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from jupyter-core->nbformat) (305)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\emree\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from packaging->plotly) (3.0.9)
+Installing collected packages: fastjsonschema, plotly, nbformat
+Successfully installed fastjsonschema-2.18.1 nbformat-5.9.2 plotly-5.18.0
